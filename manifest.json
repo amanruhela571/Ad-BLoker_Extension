@@ -1,0 +1,15 @@
+{
+    "name":"AD-Blocker",
+    "version":"1.0.0",
+    "description":"it block ads while you surf internet effectively",
+    "manifest_version":2,
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+
+    },
+    "icons":{
+        "128": "logo.png"
+    }
+    
+}
